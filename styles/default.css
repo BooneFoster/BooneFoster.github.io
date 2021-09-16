@@ -1,8 +1,8 @@
 body
 {
-	font-family: tahoma;
-	color: #ffefbd ;
-	background-color: #5a464c;
+	font-family: Helvetica;
+	color: saddlebrown;
+	background-color: seagreen;
 	margin-left: 75px;
 	margin-right: 75px;
 }
@@ -24,19 +24,26 @@ h1, h2, h3
 
 h3
 {
-	font-size: 400%;
+	font-size: 380%;
 	line-height: 0px;
+	color: saddlebrown;
+}
+
+section {
+	font-size: 120%;
+	padding-left: 200px;
 }
 
 a
 {
 	text-decoration: none;
-	color: #b5d6b2;
+	color: black;
 }
 
 a:hover
 {
 	text-decoration: overline underline;
+	color: saddlebrown;
 }
 
 figure
@@ -48,7 +55,6 @@ figcaption
 {
 	font-style: italic;
 }
-
 
 nav
 {
