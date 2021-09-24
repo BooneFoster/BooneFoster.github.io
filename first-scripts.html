@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8">
-		<link href="styles/default.css" rel="stylesheet" type="text/css" >
-		<title>Boone Foster, ITIS 3135-051, HTML Forms Submission</title>
+	<meta charset="UTF-8">
+	<script type="text/javascript" src='scripts/alert.js'> </script>
+	<link href="styles/default.css" rel="stylesheet" type="text/css" > 
+		<title>Boone Foster, ITIS 3135-051, Introduction Webpage</title>
 	</head>
 	<body>
 		<header>
@@ -16,47 +17,32 @@
 		<a href="website_evaluations.html">Website Evaluations</a>
 		</nav>
 		<main>
-			<h2>HTML Forms Submission</h2>
-			<h4>Click Down Below to Receive the All New <u>'Household Newsletter'</u></h4>
-			<p>Please fill out this quick form: </p>
-			<form action="#">
-				<br>
-				<p>First Name: </p>
-				<input type="text" placeholder="John" required>
-				<p>Last Name: </p>
-				<input type="text" placeholder="Smith" required>
-				<p>E-mail Address: </p>
-				<input type="text" placeholder="johnsmith@mail.com" required>
-				<br>
-				<p>How frequently would you like email updates: </p>
-				<select>
-  					<option>Monthly</option>
-  					<option>Weekly</option>
-  					<option>Daily</option>
-				</select>
-				<br>
-				<p>What would you like to see in your email updates: </p>
-				<p>
-					General Announcements <input type="checkbox"> <br>
-					Company Progression <input type="checkbox"> <br>
-					New Hires <input type="checkbox"> <br>
-					Fundraising Information <input type="checkbox">
-				</p>
-				<p>Which Describes You: </p>
-				<p>
-					Student<input type="radio"> <br>
-					Worker<input type="radio"> <br>
-					Employee<input type="radio">
-				</p>
-				<br>
-				<input id="button1" type="submit" value="Sign Up!">
-			</form>
+			<h2>First Scripts!</h2>
+			<p>
+				<script>
+					introductionFunc();
+				</script>
+
+					<br>
+					<br>
+
+					<input onclick="legalAge()" type="button" value="Check Eligibility" id="myButton1"></input>
+					<br>
+					<br>
+					<input onclick="totalCost()" type="button" value="Calculate Approximate Cost" id="myButton1"></input>
+					<br> 
+					<br>
+					<input onclick="riskRating()" type="button" value="Calculate Potential Risk Rating" id="myButton1"></input>
+					<br>
+					<br>
+					<input onclick="winLoss()" type="button" value="Win/Loss %" id="myButton1"></input>
+					<br>
+					<br>
+					<input onclick="question()" type="button" value="Questions?" id="myButton1"></input>
+					<br> 
+					<br>
+			</p>
 		</main>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
 		<footer>
         <nav>
             <a href="http://webpages.uncc.edu/wfoster9/" target="_blank">Charlotte.edu</a> ║
