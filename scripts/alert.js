@@ -14,7 +14,7 @@ function introductionFunc(){
 
 	//Calculates date.
 	var date = new Date();
-	var dateResult = "Today is " + date.getMonth() + "/" + date.getDate() + "/" + date.getFullYear();
+	var dateResult = "Today is " + (date.getMonth()+1) + "/" + date.getDate() + "/" + date.getFullYear();
 
 
 	//Calculates time.
