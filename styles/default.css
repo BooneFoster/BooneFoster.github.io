@@ -7,7 +7,6 @@ body
 	margin-right: 75px;
 }
 
-
 header, footer
 {
 	text-align: center;
@@ -81,6 +80,7 @@ nav
 	color: #02020A;
 }
 
-button {
-	
+.calculator { 
+  display: grid; 
+  color: blue;
 }
