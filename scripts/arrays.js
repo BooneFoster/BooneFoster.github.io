@@ -1,13 +1,16 @@
-// arrays.html JavaScript file, written by Boone Foster
+// JavaScript file, written by Boone Foster
 
 
 
 //Declare arrays for people and salaries.
-var people[];
-var salaries[];
+
 
 //Display results of the employee table.
 function displayResults(){
+
+	var people[];
+	var salaries[];
+	
 	var average = 0;
 	var highest = 0;
 
@@ -29,8 +32,6 @@ function displaySalary(){
 //Add a person and salary to the table.
 
 function addSalary(){
-	console.log("test");
-
 	var salaryInput = document.getElementById("salaryNum").value;
 	var nameInput = document.getElementById("dropdown1").value;
 
