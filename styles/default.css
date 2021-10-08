@@ -5,6 +5,7 @@ body
 	color: #B497D6;
 	margin-left: 75px;
 	margin-right: 75px;
+	font-size: 100%;
 }
 
 header, footer
@@ -41,6 +42,21 @@ img {
 	border: 5px solid #05204A;
 }
 
+input {
+	font-style: italic;
+	color: #05204A;
+	font-size: 110%;
+}
+
+#signupbutton {
+	display: grid;
+	text-align: center;
+	background-color: black;
+	color: lightblue;
+	font-size: 130%;
+	padding-left: 70px;
+	padding-right: 70px;
+}
 section {
 	font-size: 120%;
 	padding-left: 200px;
@@ -80,7 +96,8 @@ nav
 	color: #02020A;
 }
 
-.calculator { 
-  display: grid; 
-  color: blue;
+#results_table {
+	text-align: left;
+	border-style: solid;
+	border-color: black;
 }
